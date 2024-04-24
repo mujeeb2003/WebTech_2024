@@ -1,0 +1,43 @@
+html{
+    font-family: 'Segoe UI';
+    font-size: 13px;
+}
+
+table, th, tr, td{
+    border-collapse: collapse;
+    border: 1px solid #d3d3d3
+}
+
+td{
+    padding-inline: 5px;
+}
+
+.col{
+    display: inline-block;
+    vertical-align: top;
+    /* width: 50%; */
+    margin-right: 10px ;
+    /* border: 1px dashed green; */
+}
+
+
+input[readonly]{
+    border: none;
+    outline:none;
+}
+.blue-field {
+    background-color: lightblue;
+  }
+#frm th {
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
